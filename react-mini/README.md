@@ -2,37 +2,17 @@
 
 ## Submission Instrions [Please note]
 
-### Maximum Marks - 20
-
-- The Submission should not contain spaces, for example `/rct-101 folder/eval` will not work
-- Do not push node_modules and package_lock.json to github
-- Rubrics / Marking Scheme is below ( we will convert this back to a scale of 10 )
-
-```
- ✅ able to submit the app - 1 mark ( minimum score )
- ✅ pagination component works correctly 1 - 1 mark
- ✅ pagination component works correctly 2 - 1 mark
- ✅ Restaurant Components exist - 1 mark
- ✅ App loads correctly - 1 mark
- ✅ Private Route component redirects user to login when visiting /dashboard page - 1 mark
- ✅ Private Route component redirects user to login when visiting /restaurants/:id page - 1 mark
- ✅ Login page works correctly - 5 marks
- ✅ Home page works correctly - 5 marks
- ✅ Redirecting from Dashboard page to restaurant page works correctly - 1 mark
- ✅ Restaurant page works correctly 1 - 1 mark
- ✅ Restaurant page works correctly 2 - 1 mark
-```
 
 ## Description
 
 - You need to make an application which lists restaurant list from an api
 - User should be able to apply pagination
 - You need to be able to click on a restaurant name, and move to the restaurant page `/restaurants/<id>`
-- [Video Explainer.mp4](https://masai-course.s3.ap-south-1.amazonaws.com/material/videos/33509/hMUbeetaL8X3n7PXdunLt0il7FuyAmyZsZJ5taAb.mp4)
 
-## Boilerplate
 
-- You are given a set of `Pages`
+## Details
+
+-  given a set of `Pages`
   - Home
     - you are given this already
     - it contains links to other routes
@@ -74,28 +54,12 @@
 
 ## Installation
 
-- you can use any node version that works for you ( 14+ )
-- please make sure you do not push package-lock.json
-- You can use the [codesandbox link](https://codesandbox.io/s/rct-101-c3-problem-template-5vzr7b), but please note the test cases will not work on codesandbox ( as codesandbox will not support the version for testing )
-  - If you are using codesandbox, you still need to
-  - download the project
-  - add to your masai-course repo
-  - submit the github link on the cp.masaichool.com platform
-
-```
 npm install
 
 // run locally
 npm run start
 
-// test locally
-npm run test
-```
 
-- the system on cp.masaischool.com may take between 1-20 minutes for responding,
-- so we request you to read the problem carefully and debug before itself
-- we also request you to not to just submit it last minute
-- try to keep one submission at a time
 
 ## Requirements
 
@@ -114,7 +78,7 @@ npm run test
 - By default when the user loads the page, the user should be shown a set of products
   - of page 1
   - 10 per page
-- You cannot use JSON server
+
 - use useEffect to display the data on the UI
 
 - `GET` - get restaurant by id
@@ -131,15 +95,7 @@ npm run test
 - It should contain all the routes for your application
 
 ```
-/ - Home
-/login - Login Page
-/dashboard - Dashboard - Private
-/restaurants/<id> - Restaurant Single Page - Private
-```
 
-#### `Home.jsx`
-
-- You dont need to update anything here
 
 #### `Login.jsx`
 
