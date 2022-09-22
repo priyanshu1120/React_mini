@@ -1,11 +1,11 @@
 # React - Restaurant Listing
 
-## Submission Instrions [Please note]
+
 
 
 ## Description
 
-- You need to make an application which lists restaurant list from an api
+- I need to make an application which lists restaurant list from an api
 - User should be able to apply pagination
 - You need to be able to click on a restaurant name, and move to the restaurant page `/restaurants/<id>`
 
